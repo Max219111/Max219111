@@ -1,0 +1,236 @@
+@charaset "UTF-8";
+
+:root{
+    
+}
+
+head{
+    
+}
+body{
+    width:1200px;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+Header{
+    position:fixed;
+    background-color:#ffffff;
+    margin-top:0px;
+    top:0%;
+    height:200px;
+    width:100%;
+    background-color:antiquewhite;
+    width:1200px;
+    z-index: 1000;
+}
+.HeaderBackImg{
+    position:absolute;
+    z-index:-100;
+}
+.HeaderBackImgTagu{
+    width:100%;
+}
+.HeaderWrapper{
+    width:98%;
+    margin-left:1%;
+    margin-top:0px;
+    /*border:solid 7px #7FBE29;
+    border-radius:20px;
+    background-color:rgba(255, 255, 255, 0.95);*/
+}
+.TopLink{
+    text-decoration:none;
+}
+.English{
+    position:absolute;
+    text-align:center;
+    right:2%;
+    top:1.5%;
+    background-color:#F4AB1A;
+    padding:0.7% 1%;
+    border-radius:20px;
+    width:10%
+}
+.EnglishLink{
+    text-decoration:none;
+    color:#ffffff;
+    display:inline-block;
+    height:100%;
+    width:100%;
+}
+.HeaderSection1{
+	text-align: center;
+}
+.HeaderLogoPic{
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    height:80px;
+    width: 35%;
+    line-height:80px;
+    color:black;   
+}
+.headerLogoPic:link{
+}
+
+Header nav{
+    position:relative;
+}
+Header nav ul{
+    display:flex;
+    justify-content:center;
+    padding-left:0px;
+    padding-top:10px;
+    background-color:#0000;
+    border-top:solid 4px;
+}
+Header nav ul li a:hover{
+    background-color:rgba(0, 0, 0, 0.1);
+    transition:1s;
+}
+.NavBack{
+    position:absolute;
+    margin-left:1%;
+    margin-right:1%;
+    width:98%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0);
+    z-index:-1;
+    padding-bottom:0px;
+}
+.FirstListLink{
+    text-decoration:none;
+    color:#000000;
+    display:inline-block;
+    height:100%;
+    width:100%;
+}
+.FirstList{
+    display:inline-block;
+    list-style-type:none;
+    text-align:center;
+    width:12%;
+    border-left:1px solid #000000;
+    font-size:20px;
+    font-weight:bold;
+}
+.Y1{
+    
+}
+.YLast{
+    border-right:1px solid #000000;
+}
+.ListEnglish{
+    font-size:15px;
+}
+
+/*ヘッダー終わり*/
+
+/*汎用クラス*/
+.miniHeader{
+    text-align:center;
+    border-bottom:dashed 1px #000;
+    padding-bottom:10px;
+}
+.miniHeader h1{
+    font-weight:normal;
+    margin:0px;
+    font-size:23px
+}
+.miniHeader h2{
+    margin:0px;
+    font-weight:normal;
+    font-size:14px;
+    color:#7FBE29;
+}
+.Button{
+    display:inline-block;
+    width:100%;
+    height:100%;
+    text-decoration:none;
+}
+
+/*汎用クラス終わり*/
+
+/*トップ・スローガン*/
+.miniHeader.forTop{
+    top:200px;
+    padding-top:10px;
+    position:fixed;
+    width:1200px;
+    background-color:white;
+}
+.sloganJPGWrapper{
+    text-align:center;
+    margin-top:30px;
+}
+.sloganJPG{
+    width:70%;
+}
+
+/*通訳セクション*/
+.Interpretation{
+    width:70%;
+    margin:auto;
+    margin-top:300px;
+}
+.IntPhil{
+    line-height:3em;
+    font-size:1.4em;
+    border-bottom:2px solid #000;
+}
+.IntPhil span{
+    background-color:rgba(127, 190, 41, 0.62);
+}
+
+.NN1 h4{
+    color:red;
+    display:inline-block;
+    border:1px solid #000;
+    margin-bottom:0px;
+}
+
+.NN1 p{
+    margin-top:0px;
+    color:red;
+}
+
+/*利用の流れ*/
+.miniHeader.sec2{
+    margin-top:50px;
+}
+.Float{
+    font-size:0.8em;
+    margin-left:30px;
+}
+
+/*料金*/
+.Money{
+    margin-bottom:10px;
+}
+.Money.Class{
+    margin-top:60px;
+}
+.MoneyP{
+    margin-top:0px;
+    margin-left:20px;
+}
+.MoneyP span{
+    font-weight:bold;
+}
+.MoneyTable{
+    width:50%;
+    margin-left:20px;
+}
+.MoneyTable tr{
+    line-height:2em;
+}
+.MoneyTable th{
+    text-align:left;
+}
+.Can{
+    margin-left:20px;
+}
